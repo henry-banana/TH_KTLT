@@ -59,6 +59,7 @@ int main() {
 				break;
 			case 5:
 				save_file_data(data);
+				std::cout << "\t Saved!\n";
 				break;
 			case 6:
 				reset = true;
